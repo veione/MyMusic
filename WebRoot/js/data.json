@@ -1,0 +1,46 @@
+[{
+  "id":1,
+  "name":"想象之中",
+  "singer":"许嵩",
+  "album":"苏格拉没有底",
+  "type":"节奏布鲁斯|当代节奏布鲁斯|90后|流行|国语",
+  "cover":"res/cover/20141014190659_TM8uT.jpg",
+  "url":"res/mp3/759831759.mp3",
+  "lrc":"res/lrc/13765092.lrc"
+},{
+  "id":2,
+  "name":"演员",
+  "singer":"薛之谦",
+  "album":"初学者",
+  "type":"国语流行|流行",
+  "cover":"res/cover/5c699d7459c19b10c931f9a08d766fa0c645e8ec.jpg",
+  "url":"res/mp3/8509435892.mp3",
+  "lrc":"res/lrc/266097259.lrc"
+},{
+  "id":3,
+  "name":"一笑倾城",
+  "singer":"汪苏泷",
+  "album":"微微一笑很倾城 电视原声带",
+  "type":"电视剧《微微一笑很倾城》片头曲",
+  "cover":"res/cover/W020160729592052744071.png",
+  "url":"res/mp3/7894561321.mp3",
+  "lrc":"res/lrc/15415648785.lrc"
+},{
+  "id":4,
+  "name":"摄影艺术",
+  "singer":"许嵩",
+  "album":"青年晚报",
+  "type":"国语流行|流行",
+  "cover":"res/cover/147219242474186964.jpg",
+  "url":"res/mp3/9875175982.mp3",
+  "lrc":"res/lrc/266234030.lrc"
+},{
+  "id":5,
+  "name":"千古",
+  "singer":"许嵩",
+  "album":"千古",
+  "type":"中国风|流行",
+  "cover":"res/cover/PsIE-fxhcvsc4198109.jpg",
+  "url":"res/mp3/5719587328.mp3",
+  "lrc":"res/lrc/263507186.lrc"
+}]

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="cn">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>听见好音乐</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/cloud.css"/>
+ </head>
+ <body>
+  <div class="container">
+	<header>
+		<nav>
+			<div class="btn-group fl">
+        <a href="javascript:void(0)" class="btn btn-return"><i class="fa fa-angle-left fa-5x" aria-hidden="true"></i></a>   
+      </div>
+      <div class="title fr">
+        <h1 class="fl">听见</h1>
+      </div>
+	  </nav>
+	</header>
+
+	<div class="content">
+    <div class="play-list">
+      <ul>
+      </ul>
+      <div class="loading">
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	  </div>
+    </div>
+    <div class="player-container">
+        <div id="clouds">
+          <p class="cloud x1"></p>
+          <p class="cloud x2"></p>
+          <p class="cloud x3"></p>
+          <p class="cloud x4"></p>
+          <p class="cloud x5"></p>
+        </div>
+        <div class="desc-wrapper">
+          <div class="details panel">
+            <div class="cover">
+              <img src="images/20160608111533.jpg" alt="歌手" title="singer"/>
+            </div>
+          <div class="info desc">
+            <div class="song">Video Games</div>
+            <div class="singer">Lane De Ray</div>
+          </div>
+          </div>
+        </div>
+        <div class="lrc-wrapper">
+          <div class="lrc panel">
+            <textarea id="lrc_content" style="display:none;"></textarea>
+            <div class="content">
+              <ul id="lrc_list">
+                <li>听见好音乐</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dots">
+          <div class="box">
+          	<ul>
+            	<li class="btn-main-page"></li>
+            	<li class="btn-lrc-page"></li>
+            	<li class="btn"></li>
+          	</ul>
+          </div>
+        </div>
+    </div>
+  </div>
+    <!-- 音量bar -->
+    <div class="volumebar">
+        <div class="wrapper">
+          <div class="bar">
+            <div class="progress"></div>
+          </div>
+          <div class="btn" dragable></div>
+        </div>
+      </div>
+      <!-- 播放列表 -->
+      <div class="listbar">
+        <div class="title">
+          <h4>播放列表(<span>0</span>)</h4>
+          <a href="javascript:void(0)" class="btn btn-close"><i class="fa fa-remove fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="list">
+          <ul>
+          </ul>
+        </div>
+     </div>
+  <footer>
+    <div class="wrapper">
+      <div class="player">
+		<audio id="media">您的浏览器不支持 audio 标签。</audio>
+	  </div>
+      <div class="progressbar">
+        <div class="bar">
+          <div class="progress"></div>
+        </div>
+        <div class="progress-btn"></div>
+      </div>
+      <div class="controls">
+      	<div class="wrapper">
+      	<div class="time-line">
+        	<span class="time-current fl">00:00</span>
+        	<span class="time-total fr">00:00</span>
+        </div>
+        <a href="javascript:void(0)" class="btn btn-mode"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:void(0)" class="btn btn-backward"><i class="fa fa-backward fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:void(0)" class="btn btn-play"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
+        <a href="javascript:void(0)" class="btn btn-forward"><i class="fa fa-forward fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:void(0)" class="btn btn-volume"><i class="fa fa-volume-up fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:void(0)" class="btn btn-list"><i class="fa fa-navicon fa-2x" aria-hidden="true"></i></a>
+      	</div>
+      </div>
+      
+    </div> 
+  </footer>
+  </div>
+  <script type="text/html" id="song-list-template">
+  <li>
+    <div class="item" data-id="{0}">
+      <div class="rank fl">
+        <span>{1}</span>
+      </div>
+      <div class="info fr">
+        <p class="song">{2}</p>
+        <p class="singer">{3}</p>
+      </div>
+    </div>
+  </li>
+  </script>
+  <script type="text/html" id="">
+  <span><i class="fa fa-circle-o-notch fa-spin fa-2x" style="line-height: 120px;"></i></span>
+  </script>
+  <script type="text/html" id="playing-song-template">
+  <div class="round">
+		<img src="images/playing.gif" alt="playing" title="playing"/>
+  </div>
+  </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+  <script type="text/javascript" src="js/layer/layer.js"></script>
+  <script type="text/javascript" src="js/util.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.lyric.js"></script>
+  <script type="text/javascript" src="js/progressbar.js"></script>
+  <script type="text/javascript" src="js/controls.js"></script>
+  <script type="text/javascript" src="js/player.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+ </body>
+</html>
